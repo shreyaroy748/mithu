@@ -1,0 +1,142 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  color: #be5683;
+  margin: 50px auto 30px auto;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  color:  #be5683;
+  font-weight: normal;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #3b2e5a;
+}
+p{
+  line-height: 2;
+  font-size: 20px;
+}
+hr{
+border-style: none;
+border-top-style: dotted;
+border-color: #ff4301;
+border-width: 5px;
+width: 5%;
+margin: 100px auto;
+}
+
+/* top-container */
+.top-container{
+  background-color: #ffe0f7;
+  padding-top: 100px;
+  position: relative;
+
+}
+.top-cloud{
+  position:absolute;
+  right: 320px;
+  top: 40px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 280px;
+  bottom:240px;
+}
+/* middle-container */
+.photo-img{
+  border-radius: 300%;
+  margin-top: 40px;
+}
+
+/* skill on row */
+.skill-row{
+width: 60%;
+margin: 120px auto;
+text-align: left;
+
+
+}
+
+.skill-1{
+width: 45%;
+float: left;
+
+margin-right: 80px;
+}
+.skill-2{
+width: 35%;
+float: right;
+margin-left: 80px;
+}
+.skill-3{
+width: 35%;
+float: left;
+margin-right:  80px;
+}
+.skill-4{
+width: 35%;
+float: right;
+margin-left:80px;
+}
+.contact-massage{
+  margin : 20px auto;
+  width: 40%;
+}
+.myButton {
+	box-shadow: 0px 7px 19px -2px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:20px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 20px;
+	text-decoration:none;
+	text-shadow:0px 3px 0px #2f6627;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  background-color: #87d4c5;
+  margin: 0;
+  padding: 50px 0 20px;
+  margin-top: 30px;
+}
+.fotter-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffdecf;
+    margin: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.fotter-link:hover{
+color: #f9d56e;
+}
+.copyrights{
+  color:#251f44;
+  font-size: 13px;
+  padding: 20px 0;
+
+}
